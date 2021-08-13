@@ -205,8 +205,10 @@ exec "highlight ErrorMsg       term=none cterm=none ctermfg=". s:intense_red ." 
 exec "highlight WarningMsg     term=none cterm=none ctermfg=". s:red ." ctermbg=NONE guifg=#e5786d guibg=NONE gui=none"
 
 " NonText: eol, extends, precedes
-exec "highlight NonText        term=none cterm=none ctermfg=". s:non_text_fg ." ctermbg=". s:non_text_bg ." guifg=#808080 guibg=#303030 gui=none"
-exec "highlight EndOfBuffer    term=none cterm=none ctermfg=". s:non_text_fg ." ctermbg=". s:non_text_bg ." guifg=#808080 guibg=#303030 gui=none"
+"exec "highlight NonText        term=none cterm=none ctermfg=". s:non_text_fg ." ctermbg=". s:non_text_bg ." guifg=#808080 guibg=#303030 gui=none"
+"exec "highlight EndOfBuffer    term=none cterm=none ctermfg=". s:non_text_fg ." ctermbg=". s:non_text_bg ." guifg=#808080 guibg=#303030 gui=none"
+exec "highlight NonText        term=none cterm=none ctermfg=". s:non_text_fg ." ctermbg=NONE guifg=#808080 guibg=NONE gui=none"
+exec "highlight EndOfBuffer    term=none cterm=none ctermfg=". s:non_text_fg ." ctermbg=NONE guifg=#808080 guibg=NONE gui=none"
 
 " SpecialKey: nbsp, tab, trail
 exec "highlight SpecialKey     term=none cterm=none ctermfg=". s:grey ." ctermbg=NONE guifg=#666666 guibg=NONE gui=none"
