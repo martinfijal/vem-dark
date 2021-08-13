@@ -292,3 +292,15 @@ exec "highlight CtrlPBufferNr              term=none cterm=none ctermfg=". s:blu
 exec "highlight CtrlPNoEntries             term=none cterm=none ctermfg=". s:intense_red ." ctermbg=" . s:bg . " guifg=#ee0000 guibg=NONE gui=none"
 exec "highlight CtrlPMatch                 term=bold cterm=none ctermfg=". s:yellow ." ctermbg=" . s:bg . " guifg=#cae682 guibg=NONE gui=none"
 
+" gitsigns
+exec "highlight GitSignsAdd                term=none cterm=none ctermfg=" . s:green . " ctermbg=NONE guifg=#95e454 guibg=#111111 gui=none"
+exec "highlight GitSignsAddNr              term=none cterm=none ctermfg=" . s:green . " ctermbg=NONE guifg=#95e454 guibg=#111111 gui=none"
+exec "highlight GitSignsAddLn              term=none cterm=none ctermfg=" . s:green . " ctermbg=NONE guifg=#95e454 guibg=#111111 gui=none"
+
+exec "highlight GitSignsChange             term=none cterm=none ctermfg=" . s:red . " ctermbg=NONE guifg=#8ac6f2 guibg=#111111 gui=none"
+exec "highlight GitSignsChangeNr           term=none cterm=none ctermfg=" . s:red . " ctermbg=NONE guifg=#8ac6f2 guibg=#111111 gui=none"
+exec "highlight GitSignsChangeLn           term=none cterm=none ctermfg=" . s:red . " ctermbg=NONE guifg=#8ac6f2 guibg=#111111 gui=none"
+
+exec "highlight GitSignsDelete             term=none cterm=none ctermfg=" . s:red . " ctermbg=NONE guifg=#e5786d guibg=#111111 gui=none"
+exec "highlight GitSignsDeleteNr           term=none cterm=none ctermfg=" . s:red . " ctermbg=NONE guifg=#e5786d guibg=#111111 gui=none"
+exec "highlight GitSignsDeleteLn           term=none cterm=none ctermfg=" . s:red . " ctermbg=NONE guifg=#e5786d guibg=#111111 gui=none"
